@@ -1,17 +1,17 @@
-// let person = {};
-// person.name = 'Gary'
-// person.age = 50
-// person.stamina = 100
+let person = {};
+person.name = 'Gary'
+person.age = 50
+person.stamina = 100
 
-// person.speak = function(){
-//     if(this.stamina <= 0){
-//         console.log(`${this.name} needs to sleep!`)
-//     } else {
-//         console.log(`Hello I'm ${this.name}`)
-//         this.stamina -= 25
-//         console.log(`Stamina: ${this.stamina}`)
-//     }
-// }
+person.speak = function(){
+    if(this.stamina <= 0){
+        console.log(`${this.name} needs to sleep!`)
+    } else {
+        console.log(`Hello I'm ${this.name}`)
+        this.stamina -= 25
+        console.log(`Stamina: ${this.stamina}`)
+    }
+}
 
 // person.sleep = function(){
 //     console.log(`${this.name} is sleeping 💤`)
