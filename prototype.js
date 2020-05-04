@@ -13,36 +13,36 @@ person.speak = function(){
     }
 }
 
-// person.sleep = function(){
-//     console.log(`${this.name} is sleeping 💤`)
-//     this.stamina = 100
-//     console.log(`${this.name} feels refreshed. Stamina: ${this.stamina}`)
-// }
+person.sleep = function(){
+    console.log(`${this.name} is sleeping 💤`)
+    this.stamina = 100
+    console.log(`${this.name} feels refreshed. Stamina: ${this.stamina}`)
+}
 
-// function Person (name, age, stamina=100){
-//     let person = {}
-//     person.name = name
-//     person.age = age
-//     person.stamina = stamina
+function Person (name, age, stamina=100){
+    let person = {}
+    person.name = name
+    person.age = age
+    person.stamina = stamina
 
-//     person.speak = function(){
-//         if(this.stamina <= 0){
-//             console.log(`${this.name} needs to sleep!`)
-//         } else {
-//             console.log(`Hello I'm ${this.name}`)
-//             this.stamina -= 25
-//             console.log(`Stamina: ${this.stamina}`)
-//         }
-//     }
+    person.speak = function(){
+        if(this.stamina <= 0){
+            console.log(`${this.name} needs to sleep!`)
+        } else {
+            console.log(`Hello I'm ${this.name}`)
+            this.stamina -= 25
+            console.log(`Stamina: ${this.stamina}`)
+        }
+    }
 
-//     person.sleep = function(){
-//         console.log(`${this.name} is sleeping 💤`)
-//         this.stamina = 100
-//         console.log(`${this.name} feels refreshed. Stamina: ${this.stamina}`)
-//     }
+    person.sleep = function(){
+        console.log(`${this.name} is sleeping 💤`)
+        this.stamina = 100
+        console.log(`${this.name} feels refreshed. Stamina: ${this.stamina}`)
+    }
 
-//     return person
-// }
+    return person
+}
 
 // let gary = Person('Gary', 50)
 // let joe = Person('Joe', 20)
