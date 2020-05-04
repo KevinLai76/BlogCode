@@ -1,8 +1,8 @@
 function factorial(num) {
-    //Terminal Condition
+    //Terminal Condition: prevents wrong data from being passed in
     if(num < 0) return;
     
-    //Base Case
+    //Base Case: indicator of end of recursion
     if(num === 0) return 1;
     
     //Recursion
